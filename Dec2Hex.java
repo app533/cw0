@@ -5,7 +5,8 @@ class Dec2Hex
 
     public static int Arg1;
 
-    public static void main(String args[])
+
+ public static void main(String args[])
     {
         try{
              Arg1 = Integer.parseInt(args[0]);
@@ -28,6 +29,8 @@ System.out.println("extra line added for testing");
        System.out.println("Please enter integer");
         }
     }
+}
+
 }
 
 
