@@ -24,11 +24,13 @@ class Dec2Hex
 
         System.out.println("Hexadecimal representation is: " + hexadecimal);
 System.out.println("extra line added for testing");
-        }
+        }catch(Exception e){
        System.out.println("Please enter integer");
-
+        }
     }
 }
+
+
 
 
 
